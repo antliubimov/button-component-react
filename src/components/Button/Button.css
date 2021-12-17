@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap");
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  color: rgba(63, 63, 63, 1);
+  background-color: rgba(224, 224, 224, 1);
+  box-shadow: 0 2px 3px 0 rgba(51, 51, 51, 0.2);
+  transition: all 0.5s;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(174, 174, 174, 1);
+}
+
+.variant {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.variant:hover,
+.variant:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+.outline {
+  border: 1px solid rgba(61, 90, 254, 1);
+}
+.text {
+  border: none;
+}
+
+.disable_shadow {
+  box-shadow: none;
+}
+
+.disabled {
+  color: rgba(158, 158, 158, 1);
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.material-icons-round {
+  font-size: 14px !important;
+}
+.startIcon {
+  margin-right: 10px;
+}
+.endIcon {
+  margin-left: 10px;
+}
+
+.sm {
+  padding: 6px 12px;
+}
+.md {
+  padding: 8px 16px;
+}
+.lg {
+  padding: 11px 22px;
+}
+
+.color--default {
+  color: rgba(63, 63, 63, 1);
+  background-color: rgba(224, 224, 224, 1);
+}
+.color--default:hover,
+.color--default:focus {
+  background-color: rgba(174, 174, 174, 1);
+}
+
+.color--primary {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(41, 98, 255, 1);
+}
+.color--primary:hover,
+.color--primary:focus {
+  background-color: rgba(0, 57, 203, 1);
+}
+
+.color--secondary {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(69, 90, 100, 1);
+}
+.color--secondary:hover,
+.color--secondary:focus {
+  background-color: rgba(28, 49, 58, 1);
+}
+
+.color--danger {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(211, 47, 47, 1);
+}
+.color--danger:hover,
+.color--danger:focus {
+  background-color: rgba(154, 0, 7, 1);
+}

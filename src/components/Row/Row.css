@@ -1,0 +1,9 @@
+.btn-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.btn-row > *:not(:last-child) {
+  margin-right: 30px;
+}
