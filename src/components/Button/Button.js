@@ -3,7 +3,7 @@ import "./Button.css";
 import "material-icons/iconfont/material-icons.css";
 
 export default function Button({
-  title = "Default",
+  label = "Default",
   variant,
   size,
   color,
@@ -71,7 +71,7 @@ export default function Button({
   return (
     <button className={className} disabled={disabled}>
       {startIconSpan}
-      {title}
+      {label}
       {endIconSpan}
     </button>
   );
