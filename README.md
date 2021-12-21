@@ -75,7 +75,7 @@ $ npm install
 # Run the app
 $ npm start
 
-# Run StoryBook
+# Run the StoryBook
 npm run storybook
 ```
 
